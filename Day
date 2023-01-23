@@ -1,0 +1,39 @@
+import java.util.Scanner;
+class Day{
+	public static void main(String args[])
+	(
+		int date;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the date : ");
+		date=sc.nextInt();
+		if(date%7==0)
+		{		
+			System.out.println("Sunday");
+		}
+		elif(date%7==1)
+		{
+			System.out.println("Monday");
+		}
+		elif(date%7==2)
+		{
+			System.out.println("Tuesday");
+		}
+		elif(date%7==3)
+		{
+			System.out.println("Wednesay");
+		}
+		elif(date%7==4)
+		{
+			System.out.println("Thursday");
+		}
+		elif(date%7==5)
+		{
+			System.out.println("Friday");
+		}
+		else
+		{
+			System.out.println("Saturday");
+		}
+	}
+}
+
