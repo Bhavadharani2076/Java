@@ -1,0 +1,14 @@
+public class ArithmeticException  
+{  
+void divide(int a, int b)  
+{  
+5.   int res = a / b;  
+6. System.out.println("Division process has been done successfully.");  
+7. System.out.println("Result came after division is: " + res);  
+8. }  
+9.  public static void main(String argvs[])  
+10. {  
+11. ArithmeticException obj = new ArithmeticException();  
+12. obj.divide(1, 0);  
+13. }  
+14. }
